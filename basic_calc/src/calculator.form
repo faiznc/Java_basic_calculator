@@ -136,6 +136,9 @@
   </Layout>
   <SubComponents>
     <Component class="javax.swing.JTextField" name="TextHasil">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="button0">
       <Properties>

@@ -55,6 +55,8 @@ public class calculator extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Basic Calc");
 
+        TextHasil.setEditable(false);
+
         button0.setText("0");
         button0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
